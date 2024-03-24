@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <img src="logo.png" alt="">
+        <h1>Groupchat </h1>
+    </nav>
+    
+    <div class="container">
+        <!-- <div class="right" id="right">me: hi how are you </div>
+        <div id="mid" class="mid">someone joined</div> 
+        <div class="left" id="left">other : i am fine </div> -->
+    </div>
+    
+    <div class="send">
+        <form action="#"  id="send-container">
+            <input id="msg"  class="message" type="text" placeholder="Message">
+            <button id="button" class="btn" type="submit">send</button>
+            
+        </form>
+        
+    </div>
+    
+    <script src="/socket.io/socket.io.js"> </script>
+    <script src="script.js"></script>
+</body>
+</html>

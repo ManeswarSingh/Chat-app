@@ -1,0 +1,97 @@
+nav {
+    display: block;
+    margin: auto;
+    text-align: center;
+
+/* .comfortaa-<uniquifier> { */
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 10;
+  font-style: normal;
+/* } */
+}
+nav img{
+    width: 50px;
+}
+nav h1{
+    margin-top: 1px;
+    margin-bottom: 5px;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    background-color: #f0f0f0; /* Light gray background */
+    width: 90%; /* Adjusted width for responsiveness */
+    max-width: 600px; /* Added max-width to limit container width */
+    height: 60vh;
+    border-radius: 4px;
+    overflow-y: auto;
+    text-align: center;
+}
+
+.left {
+    float: left;
+    clear: both;
+    background-color: #dcf8c6; /* Light green background */
+    max-width: 60%; /* Adjusted max-width for messages */
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #a5a5a5; /* Light gray border */
+    padding: 10px;
+}
+
+.right {
+    float: right;
+    clear: both;
+    background-color: #ffffff; /* White background */
+    max-width: 60%; /* Adjusted max-width for messages */
+    margin: 10px;
+    border-radius: 15px;
+    border: 1px solid #a5a5a5; /* Light gray border */
+    padding: 10px;
+}
+
+.mid {
+    float: none;
+    clear: both;
+    background-color: #e5e5ea; /* Lighter gray background */
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #a5a5a5; /* Light gray border */
+    padding: 10px;
+}
+
+.send {
+    position: relative;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.message {
+    width: 70%;
+    max-width: 300px;
+    height: 40px;
+    margin-top: 4px;
+    border-radius: 5px;
+    padding-left: 5px;
+}
+
+.btn {
+    width: 60px;
+    height: 40px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .left,
+    .right {
+        max-width: 90%;
+    }
+
+    .message {
+        width: 60%;
+        max-width: none;
+    }
+}
